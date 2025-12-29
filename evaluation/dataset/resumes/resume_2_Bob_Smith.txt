@@ -1,0 +1,26 @@
+
+Bob Smith
+Remote | bob.smith@email.com
+
+PROFESSIONAL SUMMARY
+Passionate Software Engineer specializing in Generative AI and Large Language Models. 6 years of experience shipping code to production. Deep understanding of embeddings and vector databases.
+
+WORK HISTORY
+Senior AI Engineer | Innovation Labs | 2019 - Present
+- Developed an internal autonomous agent using GPT-4 and Strands concepts to automate customer support.
+- Built a semantic search engine using Weaviate and OpenAI embeddings.
+- Mentored junior engineers on best practices for Python and cloud deployment.
+- Reduced latency of API endpoints by 300ms using asynchronous processing.
+
+Software Developer | Cloud Corp | 2016 - 2019
+- Developed REST APIs for cloud management tools.
+- Automating infrastructure provisioning using Terraform.
+
+TECHNICAL SKILLS
+- Python (Expert), Java
+- GenAI: LLMs, RAG, Prompt Engineering, Agents
+- Cloud: GCP, AWS
+- Tools: Git, Docker, Jenkins
+
+EDUCATION
+B.S. Computer Science, UC Berkeley

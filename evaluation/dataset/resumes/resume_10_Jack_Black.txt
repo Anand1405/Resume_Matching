@@ -1,0 +1,20 @@
+
+Jack Black
+Austin, TX
+
+SUMMARY
+DevOps Engineer with strong infrastructure skills. Wants to move into application development.
+
+EXPERIENCE
+DevOps Engineer | Cloud Services | 2018 - Present
+- Managing AWS infrastructure, CI/CD pipelines.
+- Writing Python and Bash scripts for automation.
+- deployed some ML models for the data science team (ops side only).
+
+SKILLS
+- AWS, Terraform, Jenkins
+- Python (Scripting), Bash
+- Docker, Kubernetes
+
+EDUCATION
+B.S. Information Technology

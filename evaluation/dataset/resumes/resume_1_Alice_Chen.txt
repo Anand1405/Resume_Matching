@@ -1,0 +1,26 @@
+
+Alice Chen
+San Francisco, CA | alice.chen@email.com | github.com/alicechen
+
+SUMMARY
+Senior ML Engineer with 7 years of experience building production AI systems. Expert in LLM orchestration, RAG pipelines, and agentic workflows. Contributor to major open-source AI frameworks.
+
+EXPERIENCE
+Staff Software Engineer, AI Platform | TechGiant Corp | 2020 - Present
+- Architected and deployed a multi-agent system serving 1M+ daily users using Python and Custom Agent Frameworks.
+- Optimized LLM inference costs by 40% through semantic caching and model distillation.
+- Integrated vector search (Pinecone) with RAG to improve hallucination rates by 60%.
+- Led a team of 5 engineers in deploying models on AWS (EKS, Lambda).
+
+Senior Backend Engineer | DataStartup | 2017 - 2020
+- Built scalable data pipelines processing 10TB+ data daily.
+- Implemented microservices using FastAPI and Docker.
+
+SKILLS
+- Languages: Python, Go, TypeScript
+- AI/ML: PyTorch, OpenAI API, LangChain, Strands-Agents, HuggingFace
+- Infrastructure: AWS, Kubernetes, Docker, Terraform
+- Databases: PostgreSQL, Pinecone, Redis
+
+EDUCATION
+M.S. Computer Science, Stanford University

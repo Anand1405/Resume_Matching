@@ -1,0 +1,21 @@
+
+Frank White
+Chicago, IL | frank.white@email.com
+
+EXPERIENCE
+Senior Python Developer | Logistics IO | 2016 - Present
+- 8 years of Python experience building high-load backend systems.
+- Recently started integrating AI features using LangChain.
+- Expert in API design (FastAPI, Django).
+- Strong database optimization skills (PostgreSQL).
+
+Developer | Web Agency | 2014 - 2016
+- Full stack web development.
+
+SKILLS
+- Python, Django, FastAPI
+- LangChain (Basic), SQL
+- Docker, Linux System Administration
+
+EDUCATION
+B.S. Software Engineering, UIUC

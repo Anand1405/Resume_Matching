@@ -1,0 +1,22 @@
+
+Grace Lee
+Boston, MA
+
+SUMMARY
+Full Stack Engineer with 6 years experience, transitioning into AI Engineering. Strong foundation in cloud and scalability.
+
+EXPERIENCE
+Senior Full Stack Engineer | HealthTech | 2018 - Present
+- Built patient management systems using React and Python (Flask).
+- Implemented search functionality using Elasticsearch.
+- Interested in AI, completed several Coursera courses on Deep Learning and LLMs.
+- Deployed apps on GCP.
+
+SKILLS
+- JavaScript, Python, Java
+- React, Node.js, Flask
+- GCP, Kubernetes
+- ElasticSearch
+
+EDUCATION
+B.S. Computer Science, Boston University

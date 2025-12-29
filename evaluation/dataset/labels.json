@@ -1,0 +1,77 @@
+{
+  "resume_1_Alice_Chen.txt": {
+    "name": "Alice Chen",
+    "category": "Excellent Match",
+    "score_range": "0.90-1.0"
+  },
+  "resume_2_Bob_Smith.txt": {
+    "name": "Bob Smith",
+    "category": "Excellent Match",
+    "score_range": "0.90-1.0"
+  },
+  "resume_3_Carol_Davis.txt": {
+    "name": "Carol Davis",
+    "category": "Excellent Match",
+    "score_range": "0.90-1.0"
+  },
+  "resume_4_David_Wilson.txt": {
+    "name": "David Wilson",
+    "category": "Partial Match",
+    "score_range": "0.40-0.60"
+  },
+  "resume_5_Eve_Miller.txt": {
+    "name": "Eve Miller",
+    "category": "Partial Match",
+    "score_range": "0.50-0.70"
+  },
+  "resume_6_Frank_White.txt": {
+    "name": "Frank White",
+    "category": "Partial Match",
+    "score_range": "0.40-0.60"
+  },
+  "resume_7_Grace_Lee.txt": {
+    "name": "Grace Lee",
+    "category": "Poor Match",
+    "score_range": "0.0-0.10"
+  },
+  "resume_8_Henry_Brown.txt": {
+    "name": "Henry Brown",
+    "category": "Poor Match",
+    "score_range": "0.10-0.30"
+  },
+  "resume_9_Ivy_Green.txt": {
+    "name": "Ivy Green",
+    "category": "Partial Match",
+    "score_range": "0.40-0.60"
+  },
+  "resume_10_Jack_Black.txt": {
+    "name": "Jack Black",
+    "category": "Poor Match",
+    "score_range": "0.20-0.40"
+  },
+  "resume_11_Kelly_King.txt": {
+    "name": "Kelly King",
+    "category": "Poor Match",
+    "score_range": "0.0-0.20"
+  },
+  "resume_12_Larry_Scott.txt": {
+    "name": "Larry Scott",
+    "category": "Poor Match",
+    "score_range": "0.0-0.20"
+  },
+  "resume_13_Mary_Jones.txt": {
+    "name": "Mary Jones",
+    "category": "Poor Match",
+    "score_range": "0.0-0.20"
+  },
+  "resume_14_Nancy_Drew.txt": {
+    "name": "Nancy Drew",
+    "category": "Poor Match",
+    "score_range": "0.0-0.20"
+  },
+  "resume_15_Oscar_Grouch.txt": {
+    "name": "Oscar Grouch",
+    "category": "Poor Match",
+    "score_range": "0.0-0.20"
+  }
+}

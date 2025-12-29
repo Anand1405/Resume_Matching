@@ -1,0 +1,22 @@
+
+Henry Brown
+Denver, CO
+
+SUMMARY
+Software Engineer with 3 years of experience. Enthusiastic about AI but limited professional experience.
+
+EXPERIENCE
+Software Engineer | StartUp A | 2021 - Present
+- Developing web applications using Python and Django.
+- wrote scripts to automate daily tasks.
+- Used ChatGPT to generate code snippets.
+
+Junior Developer | Corp B | 2020 - 2021
+- Bug fixing and maintenance of internal tools.
+
+SKILLS
+- Python, HTML/CSS, JavaScript
+- Git, Basic SQL
+
+EDUCATION
+B.A. Mathematics, CU Boulder

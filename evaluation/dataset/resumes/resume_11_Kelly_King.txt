@@ -1,0 +1,16 @@
+
+Kelly King
+Portland, OR
+
+EXPERIENCE
+Java Developer | Enterprise Corp | 2015 - Present
+- 9 years of experience in Java Enterprise development.
+- Building large scale monoliths.
+- No professional Python or AI experience, but willing to learn.
+
+SKILLS
+- Java, Spring Boot, Hibernate
+- Oracle DB, SOAP Web Services
+
+EDUCATION
+B.S. Computer Science

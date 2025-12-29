@@ -1,0 +1,27 @@
+
+**Job Title:** Senior Software Engineer - AI/ML Systems
+**Location:** Remote / San Francisco, CA
+**Company:** StrandsAI Tech
+
+**About Us:**
+StrandsAI is at the forefront of generative AI, building the next generation of autonomous agents. We are looking for a Senior Software Engineer to help us build scalable, production-grade AI systems.
+
+**Responsibilities:**
+- Design and implement scalable AI/ML pipelines and agents using Python.
+- Work with Large Language Models (LLMs) like GPT-4, Gemini, and Claude.
+- Optimize inference latency and cost for high-throughput systems.
+- Build and maintain RESTful APIs and microservices.
+- Collaborate with research teams to deploy state-of-the-art models.
+
+**Requirements:**
+- 5+ years of experience in software engineering (Python preferred).
+- Strong experience with AI/ML frameworks (PyTorch, TensorFlow, or LangChain/LlamaIndex).
+- Experience building production-grade applications with LLMs.
+- Knowledge of vector databases (Pinecone, Weaviate, etc.) and embeddings.
+- Experience with cloud platforms (AWS, GCP) and containerization (Docker, Kubernetes).
+- Bachelor's or Master's degree in Computer Science or related field.
+
+**Preferred Qualifications:**
+- Experience with the Strands-Agents framework.
+- Contributions to open-source AI projects.
+- Understanding of RAG (Retrieval-Augmented Generation) architectures.

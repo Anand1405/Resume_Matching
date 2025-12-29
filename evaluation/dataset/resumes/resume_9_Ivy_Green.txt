@@ -1,0 +1,16 @@
+
+Ivy Green
+Miami, FL
+
+EXPERIENCE
+Data Analyst | Marketing Co | 2019 - Present
+- Analyzing marketing campaign data using Python (Pandas) and Excel.
+- Creating dashboards in Tableau.
+- Some experience with basic ML models (Linear Regression).
+
+SKILLS
+- Python (Data Analysis), SQL, Excel
+- Tableau, PowerBI
+
+EDUCATION
+B.S. Statistics, University of Miami

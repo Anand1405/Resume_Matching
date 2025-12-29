@@ -1,0 +1,25 @@
+
+Eve Miller
+Seattle, WA | eve.miller@email.com
+
+PROFILE
+Data Scientist turned Machine Learning Engineer with strong Python skills and experience with NLP.
+
+EXPERIENCE
+ML Engineer | Retail AI | 2020 - Present
+- Deployed NLP models for sentiment analysis and product categorization.
+- Experimenting with LLMs for product description generation.
+- Built data pipelines using Airflow and Python.
+- Familiar with vector search concepts.
+
+Data Scientist | Data Analytics Firm | 2017 - 2020
+- Built predictive models using Scikit-Learn and Pandas.
+- Visualized data insights for stakeholders.
+
+SKILLS
+- Python, R, SQL
+- NLP, Machine Learning, TensorFlow
+- AWS (SageMaker), Docker
+
+EDUCATION
+M.S. Data Science, University of Washington

@@ -1,0 +1,25 @@
+
+David Wilson
+New York, NY | david.wilson@email.com
+
+SUMMARY
+Software Engineer with 5 years of experience in backend development and recent focus on AI integration.
+
+EXPERIENCE
+Senior Software Engineer | FinTech Co | 2019 - Present
+- Integrated OpenAI API into existing customer service chat application.
+- Built robust Python microservices for transaction processing.
+- Managed AWS infrastructure using CloudFormation.
+- Strong background in distributed systems.
+
+Software Engineer | Bank Corp | 2018 - 2019
+- maintained legacy Java applications.
+- Migrated services to Docker containers.
+
+SKILLS
+- Python, Java, SQL
+- API Integration, Basic LLM usage
+- AWS, Docker, CI/CD
+
+EDUCATION
+B.S. Computer Science, NYU

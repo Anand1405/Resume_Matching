@@ -1,0 +1,26 @@
+
+Carol Davis
+Austin, TX | carol.davis@email.com
+
+OBJECTIVE
+To leverage my extensive experience in AI/ML engineering to build cutting-edge agentic systems.
+
+EXPERIENCE
+Lead ML Engineer | AI Solutions Inc | 2018 - Present
+- Spearheaded the development of a production-grade LLM application for legal document analysis.
+- Utilized RAG and agent-based architectures to handle complex reasoning tasks.
+- Proficient in fine-tuning open-source models (Llama 2, Mistral).
+- Expert in Python, PyTorch, and deploying models on Kubernetes.
+
+Backend Engineer | WebServices LLC | 2015 - 2018
+- Designed high-performance APIs and backend systems.
+- Managed database migrations and optimization.
+
+SKILLS
+- Programming: Python, C++
+- AI: Transformers, LLMs, Agents, Embeddings
+- Cloud: AWS, Azure
+- Database: MongoDB, Milvus, PostgreSQL
+
+EDUCATION
+Ph.D. Artificial Intelligence, MIT
