@@ -6,20 +6,20 @@ An intelligent, multi-agent system for automated resume screening. This project 
 
 ## 📊 Performance Evaluation
 
-To validate the system, we tested it against a **Synthetic Evaluation Dataset** comprising 15 resumes ranging from "Perfect Matches" to "Completely Irrelevant" profiles.
+To validate the system, I tested it against a **Synthetic Evaluation Dataset** comprising 15 resumes ranging from "Perfect Matches" to "Completely Irrelevant" profiles.
 
 ### 1. Retrieval Performance
-We measured the ability of the Hybrid Search (FAISS + BM25) to surface relevant candidates from the pool.
+I measured the ability of the Hybrid Search (FAISS + BM25) to surface relevant candidates from the pool.
 
 | K | Precision@K | Recall@K | Insight |
 | :--- | :--- | :--- | :--- |
-| **3** | **1.000** | **0.429** | The top 3 candidates were all Excellent Matches (Bob, Alice, Carol). |
+| **3** | **1.000** | **0.429** | The top 3 candidates Ire all Excellent Matches (Bob, Alice, Carol). |
 | **5** | **1.000** | **0.714** | The top 5 included strong "Partial Matches" (Eve, Frank), proving the system prioritizes quality. |
 | **10** | **0.600** | **0.857** | By K=10, nearly all relevant talent was captured. |
 | **15** | **0.467** | **1.000** | **100% Recall achieved.** No viable candidate was missed in the retrieval phase. |
 
 ### 2. Matching Accuracy
-We measured the accuracy of the **Matching Agent** (Gemini 2.5 Pro) by comparing its generated score (0-100) against the human-verified score range.
+I measured the accuracy of the **Matching Agent** (Gemini 2.5 Pro) by comparing its generated score (0-100) against the human-verified score range.
 
 * **Overall Accuracy:** **100.0%**
 * **Detailed Results:**
@@ -65,7 +65,7 @@ We measured the accuracy of the **Matching Agent** (Gemini 2.5 Pro) by comparing
 - **Model:** `gemini-2.5-pro`
 - **Input:** Job Description + Candidate Metadata + Normalized Resume Text
 - **Goal:** Reasoning and final decision
-- **Tools:** `ScoringTool` (deterministic weighted calculation)
+- **Tools:** `ScoringTool` (deterministic Iighted calculation)
 - **Output:**
   - **Score (0–100)**: quantitative fit
   - **Reasoning**: qualitative explanation (why the candidate fits / fails)
@@ -81,7 +81,7 @@ We measured the accuracy of the **Matching Agent** (Gemini 2.5 Pro) by comparing
 
 ## Scoring Logic
 
-The `ScoringTool` implements a strict weighted formula to prevent hallucinated math:
+The `ScoringTool` implements a strict Iighted formula to prevent hallucinated math:
 
 ```python
 Final Score = (0.30 * Experience_Score) + 
@@ -96,10 +96,10 @@ Final Score = (0.30 * Experience_Score) +
 
 | Provider | Model family | Variant | Max input tokens (context) | Price (USD) — input / output per 1M tokens | Role in pipeline | Notes / decision |
 |---|---|---:|---:|---:|---|---|
-| **Google (Gemini API)** | **Gemini 2.5** | **Flash** (`gemini-2.5-flash`) | **1,048,576** | **$0.30 / $2.50** *(text/image/video)* | **Extraction** | **Selected.** Low cost + 1M context fits long resumes/portfolios with fewer chunking edge-cases. |
+| **Google (Gemini API)** | **Gemini 2.5** | **Flash** (`gemini-2.5-flash`) | **1,048,576** | **$0.30 / $2.50** *(text/image/video)* | **Extraction** | **Selected.** Low cost + 1M context fits long resumes/portfolios with feIr chunking edge-cases. |
 | **Google (Gemini API)** | **Gemini 2.5** | **Pro** (`gemini-2.5-pro`) | **1,048,576** | **≤200K:** **$1.25 / $10.00**; **>200K:** **$2.50 / $15.00** | **Matching** | **Selected.** Strong reasoning; keep **math deterministic via tool** to avoid scoring drift. |
 | **Google (Gemini API)** | **Gemini 3** | **Flash (Preview)** (`gemini-3-flash-preview`) | **1,048,576** | **$0.50 / $3.00** *(text/image/video)* | Optional / future | **Deferred.** Preview model; consider once Strands + Gemini 3 stability is confirmed. |
-| **Google (Gemini API)** | **Gemini 3** | **Pro (Preview)** (`gemini-3-pro-preview`) | **1,048,576** | **≤200K:** **$2.00 / $12.00**; **>200K:** **$4.00 / $18.00** | Optional / future | **Deferred.** Powerful but **preview** + higher cost than Gemini 2.5 Pro. |
+| **Google (Gemini API)** | **Gemini 3** | **Pro (Preview)** (`gemini-3-pro-preview`) | **1,048,576** | **≤200K:** **$2.00 / $12.00**; **>200K:** **$4.00 / $18.00** | Optional / future | **Deferred.** PoIrful but **preview** + higher cost than Gemini 2.5 Pro. |
 | **OpenAI** | **GPT-5** | **Mini** (`gpt-5-mini`) | **400,000** | **$0.25 / $2.00** | N/A | **Rejected (for this design).** Good pricing, but context is still < Gemini 1M. |
 | **OpenAI** | **GPT-5.2** | **Standard** (`gpt-5.2`) | **400,000** | **$1.75 / $14.00** | N/A | **Rejected.** Costly vs Gemini 2.5 Pro + smaller context. |
 | **OpenAI** | **GPT-5.2** | **Pro** (`gpt-5.2-pro`) | **400,000** | **$21.00 / $168.00** | N/A | **Rejected.** Prohibitive for batch resume screening. |
@@ -121,7 +121,7 @@ Final Score = (0.30 * Experience_Score) +
     pip install -r requirements.txt
     ```
 3. Create a .env file or Configure settings in `config/settings.py`.
-4. Run Web-App:
+4. Run Ib-App:
     ```bash
     streamlit run app.py
     ```
@@ -131,7 +131,10 @@ Final Score = (0.30 * Experience_Score) +
     ```bash
     python evaluation/run_evaluation.py
     ```
-* **Web Application**:
+* **Ib Application**:
     ```bash
     streamlit run app.py
+
     ```
+
+### Use [Web-App Directly](https://resumematching-qnvbswfupsdmsjnxxmxa7p.streamlit.app/)
