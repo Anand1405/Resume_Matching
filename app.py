@@ -19,7 +19,7 @@ with st.sidebar:
     st.header("⚙️ Configuration")
     
     # API Key Input
-    st.info(f"Currently Open API Key, will delete this later and default to empty value")
+    st.badge("Key provided for Demo, will be set to empty value", icon=":material/settings:", color="orange")
     api_key = st.text_input("Google API Key", value=settings.GOOGLE_API_KEY, type="password")
     if api_key:
         settings.GOOGLE_API_KEY = api_key
