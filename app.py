@@ -19,8 +19,8 @@ with st.sidebar:
     st.header("⚙️ Configuration")
     
     # API Key Input
-    st.badge("Key provided for Demo, will be set to empty value", icon=":material/settings:", color="orange")
     api_key = st.text_input("Google API Key", value=settings.GOOGLE_API_KEY, type="password")
+    st.badge("Key provided for Demo, will be set to empty value", icon=":material/settings:", color="orange")
     if api_key:
         settings.GOOGLE_API_KEY = api_key
         os.environ["GOOGLE_API_KEY"] = api_key # Update env for subprocesses if any
