@@ -10,15 +10,16 @@ from config.settings import settings
 import shutil
 
 # --- Config ---
-st.set_page_config(page_title="AI Resume Matcher (Gemini 2.5 Flash)", layout="wide")
+st.set_page_config(page_title="AI Resume Matcher (Gemini 2.5)", layout="wide")
 st.title("🎯 AI Resume Matcher")
-st.markdown("### Powered by Strands Agents & Gemini 2.5 Flash")
+st.markdown("### Powered by Strands Agents & Gemini 2.5")
 
 # --- Sidebar ---
 with st.sidebar:
     st.header("⚙️ Configuration")
     
     # API Key Input
+    st.info(f"Currently Open API Key, will delete this later and default to empty value")
     api_key = st.text_input("Google API Key", value=settings.GOOGLE_API_KEY, type="password")
     if api_key:
         settings.GOOGLE_API_KEY = api_key
@@ -100,6 +101,9 @@ async def main_pipeline():
         if not results:
             st.warning("⚠️ No matches found.")
         else:
+            if len(results) > settings.TOP_N_CANDIDATES:
+                results = results[:settings.TOP_N_CANDIDATES]
+                
             st.success(f"✅ Found {len(results)} candidates.")
             
             # Stats
